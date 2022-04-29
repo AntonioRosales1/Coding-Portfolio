@@ -94,10 +94,10 @@ form {
 }
 .form-control {
   width: 600px;
-  background: transparent;
+  background: rgb(205, 220, 31);
   border: none;
   outline: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(205, 220, 31);
   color: rgb(205, 220, 31);
   font-size: 18px;
   margin-bottom: 16px;
