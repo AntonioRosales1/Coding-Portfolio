@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+}
+.welcome {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.App {
+  text-align: center;
+}
+
+.header {
+  border-bottom: dotted blue 2px;
+  color: bisque;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.para {
+  color: bisque;
+  border-radius: 5 5 5 5;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.git {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #010c0f;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.footer {
+  color: bisque;
+}
+.footer ul {
+  border-top: dotted blue 2px;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-tiitle {
+  margin: 100px;
+  color: antiquewhite;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-tiitle h1 {
+  font-size: 16px;
+}
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: antiquewhite;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input {
+  height: 45px;
+}
+form .submit {
+  background-color: blue;
+  border-color: transparent;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 2px;
+}
+form .submit:hover {
+  background-color: teal;
+  cursor: pointer;
+}
