@@ -23,8 +23,10 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  font-size: 40px;
 }
 .para {
+  font-size: 30px;
   color: rgb(205, 220, 31);
   border-radius: 5 5 5 5;
 }
@@ -116,4 +118,7 @@ form .submit {
 form .submit:hover {
   background-color: rgb(209, 97, 179);
   cursor: pointer;
+}
+aTags a {
+  font-size: 30px;
 }
