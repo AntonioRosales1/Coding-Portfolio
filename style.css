@@ -1,8 +1,10 @@
 body {
   background-color: black;
+  background-image: url(../images/binary.png);
 }
+
 .header {
-  border-bottom: dotted blue 2px;
+  border-bottom: dotted rgb(214, 83, 164) 2px;
   color: bisque;
   text-align: center;
 }
@@ -51,7 +53,7 @@ ul {
   height: 100%;
 }
 .text {
-  color: white;
+  color: bisque;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -66,7 +68,7 @@ ul {
   justify-content: end;
 }
 .footer ul {
-  border-top: dotted blue 2px;
+  border-top: dotted rgb(214, 83, 164) 2px;
   padding-top: 2%;
   display: flex;
   justify-content: space-around;
@@ -102,7 +104,7 @@ input {
   height: 45px;
 }
 form .submit {
-  background-color: blue;
+  background-color: rgb(214, 83, 164);
   border-color: transparent;
   color: antiquewhite;
   font-size: 20px;
@@ -112,6 +114,6 @@ form .submit {
   margin-top: 2px;
 }
 form .submit:hover {
-  background-color: teal;
+  background-color: rgb(209, 97, 179);
   cursor: pointer;
 }
